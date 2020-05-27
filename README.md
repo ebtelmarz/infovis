@@ -2,6 +2,7 @@
 
 This is an assignment for the Information Visualization course at Roma Tre University.
 
+## Text of the assignment
 
 Crea un file json con dei dati multivariati: ci sono 10 data-point e
 ogni data-point ha quattro variabili quantitative i cui valori sono
