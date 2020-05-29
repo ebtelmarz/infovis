@@ -21,9 +21,8 @@ d3.json('./points.json', function(data) {
             return d.color;
         })
         .attr('stroke-width', '2');
-    update();
 
-    function update() {
+    function trigger() {
         for (var i = 0; i < data.length; i++) {
             tmpX = data[i].x;
             tmpY = data[i].y;
@@ -37,7 +36,7 @@ d3.json('./points.json', function(data) {
         }
     }
 
-    function trigger() {
+    function update() {
         d3.select('svg')
             .selectAll('rect')
             .data(data)
